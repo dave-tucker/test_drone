@@ -8,4 +8,4 @@ script:
   - env
   - echo "Hello World"
   - ip a
-  - sleep 30
+  - sleep 60 
