@@ -7,4 +7,5 @@ services:
 script:
   - env
   - echo "Hello World"
-
+  - ip a
+  - sleep 30
