@@ -1,0 +1,9 @@
+---
+image: library/golang:1.3
+docker:
+  host: net
+services:
+  - mysql
+script:
+  - echo "Hello World"
+
