@@ -2,8 +2,9 @@
 image: library/golang:1.3
 docker:
   host: net
-services:
-  - mysql
+#services:
+#  - mysql
 script:
+  - env
   - echo "Hello World"
 
